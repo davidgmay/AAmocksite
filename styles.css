@@ -1,0 +1,60 @@
+.wrapper {
+    height: 300px;
+    width: 420px;
+    border-radius: 50px;
+    overflow: hidden;
+    border: 6px solid rgb(255, 255, 255)
+}
+
+.wrapper img {
+    height:100%;
+    width:100%;
+    border-radius: 50px;
+    filter:grayscale(25%);
+    transition: 0.5s ease;
+    cursor:pointer;
+}
+
+.wrapper img:hover {
+    transform:scale(1.3);
+    filter: grayscale(50%)
+}
+
+.flag {
+    margin-top: 25px;
+    border-radius: 50px;
+    overflow: hidden;
+    border: 6px solid rgb(255, 255, 255)
+}
+
+.flag img {
+    height:80%;
+    width:80%;
+    border-radius: 50px;
+    filter:grayscale(25%);
+    transition: 0.5s ease;
+    cursor:pointer;
+}
+
+.flag img:hover {
+    transform:scale(1.3);
+    filter: grayscale(50%)
+}
+
+
+.disclaimer {
+    text-align: center;
+    margin:10px 100px;
+    color:rgb(168, 168, 168);
+}
+
+.eligible {
+    border-width: 5px ;
+}
+
+.info {
+    width: 70%;
+    margin-left: 210px;
+    font-style: italic;
+    text-align: center;
+}
